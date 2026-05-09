@@ -1,13 +1,15 @@
-# Stopwatch
-Very barebones Win32 application for when I need a stopwatch.
+# Bad Stopwatch
+Ordinarily, this would be a very barebones Win32 application for when you need a stopwatch. 
 
-Features:
+That said, there are some bugs preventing this program from running correctly. Can you find them?
+
+This app is supposed to have:
 * Graphical interface
 * Counts up in seconds
 * Convenient 10kb stand-alone executible with small memory footprint
 * Fast to start up and shut down; no web browser, no log-in, does not rely on complicated application frameworks
 
-Looks like this:
+And, it should look like this:
 
 ![Image](https://raw.githubusercontent.com/clandrew/stopwatch/main/Images/Screenshot.png "Image")
 
@@ -24,7 +26,7 @@ If timing is happening, a 'play' icon appears beside the timer.
 The timing goes up to 1 hour, then resets automatically.
 
 ## Build
-The project is in C++, built with Visual Studio 2019. The x86 build is supported.
+The project is in C++, built with Visual Studio 2019 or later. The x86 build is supported.
 
 ## System requirements
 This application has been tested on Windows 10 on an x86-64 based computer. It is likely to work on other versions of Windows that have x86 application compatibility.
